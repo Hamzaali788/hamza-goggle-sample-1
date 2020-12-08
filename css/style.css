@@ -919,6 +919,14 @@ footer .flex{
         font-size: 1.2rem;
     }
 
+    #alt{
+        width: 100%;
+        position: absolute;
+        right: 50px;
+        top: 100px;
+
+    }
+
 
 } 
 @media (max-width:425px){
