@@ -872,6 +872,7 @@ footer .flex{
     }
 
     .product-box{
+        width: 100%;
         margin-bottom: 1rem;
     }
 
@@ -917,6 +918,7 @@ footer .flex{
     .logo a{
         font-size: 1.2rem;
     }
+
 
 } 
 @media (max-width:425px){
