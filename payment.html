@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>GOGGLES</title>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="max">
+               <div class="flex">
+                   <div class="help-box">
+                       <h3>Need Help</h3>
+                       <span class="fa fa-phone"></span><span>(+12)123 456 7890</span>
+                   </div>
+
+                    <div class="logo">
+                        <h1 class="gog">GOGGLES</h1>
+                        <hr>
+                        <div class="navigation flex" id="navi">
+                            <div class="home">
+                                <a href="index.html">HOME</a>
+                            </div>
+                            <div class="about">
+                                <a href="about.html">ABOUT</a>
+                            </div>
+                            <div class="features">
+                                <a href="#">FEATURES<span class="fa fa-angle-down"></span></a>
+                                    <div class="features-box" id="features-box1">
+                                        <div class="flex">
+                                            
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="single.html">Ray-ban</a>
+                                                <a href="single.html">Desiner Glasses</a>
+                                                <a href="single.html">Prescription Glasses</a> 
+                                                <h1>View More Pages</h1>
+                                                <a href="about.html">About</a>
+                                                <a href="contact.html">Customers</a>
+                                            </div>
+
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="single.html"><img src="img/g2.jpg"></a>
+                                            </div>
+
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="single.html"><img src="img/g3.jpg"></a>
+                                            </div>
+                                        </div> 
+                                        <hr>
+                                    </div>
+                            </div>
+                            <div class="shop">
+                                <a href="single.html">SHOP <span class="fa fa-angle-down"></span></a>
+                                <div class="features-box" id="features-box2">
+                                    <div class="flex">
+                                        
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="single.html">Desiner Glasses</a>
+                                            <a href="single.html">Ray-ban</a>
+                                            <a href="single.html">Prescription Glasses</a> 
+                                            <a href="single.html">Rx Sunglasses</a>
+                                            <a href="single.html">Contact Lenses</a>
+                                            <a href="single.html">Multifocal Glasses</a>
+                                            <a href="single.html">Kids Glasses</a>
+                                            <a href="single.html">Lightweight Glasses</a>
+                                            <a href="single.html">Sports Glasses</a>
+                                        </div>
+
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="single.html">Desiner Glasses</a>
+                                            <a href="single.html">Ray-ban</a>
+                                            <a href="single.html">Prescription Glasses</a> 
+                                            <a href="single.html">Rx Sunglasses</a>
+                                            <a href="single.html">Contact Lenses</a>
+                                            <a href="single.html">Multifocal Glasses</a>
+                                            <a href="single.html">Kids Glasses</a>
+                                            <a href="single.html">Lightweight Glasses</a>
+                                            <a href="single.html">Sports Glasses</a>
+                                        </div>
+
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="single.html"><img src="img/g4.jpg"></a>
+                                        </div>
+                                    </div> 
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sreach-box">
+                        <span class="fa fa-user"></span>
+                        <button class="btn-src" onclick="alt()" id="mi">My Cart <span class="fa fa-cart-arrow-down"></span></button>
+                        <p id="alt" >Your shopping cart is empty <span class="fa fa-close" onclick="altt()"></span></p>
+                    </div>
+               </div>
+           </div>
+        </nav>
+    </header> 
+
+    <!-- about us section start -->
+
+    <section>
+        <div class="pagi">
+            <span class="red">Home   </span> <span>/   Payment</span>
+        </div>
+    </section>
+
+    <!-- Checkout section start -->
+
+    <section>
+        <div class="check">
+            <h1>Payment</h1>
+
+            <div class="flex">
+                <h3 class="wh" onclick="cash()" id="cash">CASH ON DELIVERY (COD)</h3>
+                <h3 class="wh" onclick="cashh()" id="cre">CREDIT/DEBIT</h3>
+                <h3 class="wh" onclick="cashhh()" id="net">NET BANKING</h3>
+                <h3 class="wh" onclick="cashhhh()" id="paypal">PAYPAL ACCOUNT</h3>
+            </div>
+
+            <div id="cash1">
+                <h4>COD</h4>
+                <input type="checkbox" name="checkk" id="checkk">
+                <p>We also accept Credit/Debit card on delivery. Please Check with the agent.</p>
+            </div>
+
+            <div id="cash2">
+                <form action="#">
+                    <label for="name">Name on Card</label>
+                    <input type="text" placeholder="John Simth">
+
+                    <label for="cn">Card Number</label>
+                    <input type="password" placeholder="**** **** **** ****">
+
+                    <label for="cn">CVV</label>
+                    <input type="password" placeholder="***">
+
+                    <label for="cn">Expiration Date</label>
+                    <input type="month" placeholder="mm/yy">
+
+                    <button class="mack1">Mack A Payment</button>
+                </form>
+            </div>
+
+            <div id="cash3">
+                <form action="#" class="for">
+                    <label for="bank">Select From Popular Banks</label>
+                    <input class="f1" type="radio" name="bank"> Syndicate Bank
+                    <input class="f1" type="radio" name="bank"> Bank of Baroda
+                    <input class="f1" type="radio" name="bank"> Canara Bank
+                    <input class="f1" type="radio" name="bank"> ICICI Bank
+                    <input class="f1" type="radio" name="bank">  State Bank Of India
+                    <br><br>
+                    <button class="mack1" >PAY NOW</button>
+                </form>
+            </div>
+
+            <div id="cash4">
+                <div class="flex">
+                    <div class="left-cash">
+                        <img src="img/paypal.png" alt="">
+                        <p>Important: You will be redirected to PayPal's website to securely complete your payment.</p>
+
+                        <button class="mack1">Checkout via PayPal</button>
+                    </div>
+                    <form action="#" class="right-cash">
+                        <label for="name">Name on Card</label>
+                        <input type="text" placeholder="John Simth">
+    
+                        <label for="cn">Card Number</label>
+                        <input type="password" placeholder="**** **** **** ****">
+    
+                        <label for="cn">CVV</label>
+                        <input type="password" placeholder="***">
+    
+                        <label for="cn">Expiration Date</label>
+                        <input type="month" placeholder="mm/yy">
+    
+                        <button class="mack1">Mack A Payment</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </section>
+  
+
+
+    <!-- footer start here -->
+
+    <footer>
+        <div class="max">
+            <div class="flex">
+                <div class="footer-box">
+                    <h3>About Us</h3>
+                    
+                    <p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+
+                    <span class="fa fa-facebook"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-google"></span>
+                    <span class="fa fa-linkedin"></span>
+                    <span class="fa fa-rss"></span>
+                    <span class="fa fa-vk"></span>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Get in touch</h3>
+                    
+                    <h4>Location :</h4>
+                    <p>0926k 4th block building, king Avenue, New York City.</p>
+                    <h4>Contact :</h4>
+                    <p>Phone : +121 098 8907 9987</p>
+                    <p>Email : info@example.com</p>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Error</a>
+                    <a href="single.html">Shop</a>
+                    <a href="contact.html">Contact us</a>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Sign up for your offers</h3>
+                    <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                </div>
+            </div>
+            <hr>
+
+            <p class="center">© 2018 Goggles. All Rights Reserved | Design by <span> Hamza Ali</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>GOGGLES</title>
+</head>
+<body>
+    <div id="preloder"></div>
+
+    <div id="login">
+        <div class="login-page">
+            <span class="fa fa-times" onclick="login()"></span>
+            <h3>Join our newsletter and get</h3>
+            <h1>50% Off for your <br> first Pair of Eye <br> wear</h1>
+
+            <p>Email address</p>
+
+            <input type="email" name="email">
+
+            <button class="btn-get">Get 50% off</button>
+            <a href="#">No thanks I want to pay full Price</a>
+        </div>
+    </div>
+    <header>
+        <nav>
+           <div class="max">
+               <div class="flex">
+                   <div class="help-box">
+                       <h3>Need Help</h3>
+                       <span class="fa fa-phone"></span><span>(+12)123 456 7890</span>
+                   </div>
+
+                    <div class="logo">
+                        <h1 class="gog">GOGGLES</h1>
+                        <hr>
+                        <div class="navigation flex" id="navi">
+                            <div class="home">
+                                <a href="index.html">HOME</a>
+                            </div>
+                            <div class="about">
+                                <a href="about.html">ABOUT</a>
+                            </div>
+                            <div class="features">
+                                <a href="#">FEATURES<span class="fa fa-angle-down"></span></a>
+                                    <div class="features-box" id="features-box1">
+                                        <div class="flex">
+                                            
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="single.html">Ray-ban</a>
+                                                <a href="single.html">Desiner Glasses</a>
+                                                <a href="single.html">Prescription Glasses</a> 
+                                                <h1>View More Pages</h1>
+                                                <a href="about.html">About</a>
+                                                <a href="contact.html">Customers</a>
+                                            </div>
+
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="single.html"><img src="img/g2.jpg"></a>
+                                            </div>
+
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="single.html"><img src="img/g3.jpg"></a>
+                                            </div>
+                                        </div> 
+                                        <hr>
+                                    </div>
+                            </div>
+                            <div class="shop">
+                                <a href="single.html">SHOP <span class="fa fa-angle-down"></span></a>
+                                <div class="features-box" id="features-box2">
+                                    <div class="flex">
+                                        
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="single.html">Desiner Glasses</a>
+                                            <a href="single.html">Ray-ban</a>
+                                            <a href="single.html">Prescription Glasses</a> 
+                                            <a href="single.html">Rx Sunglasses</a>
+                                            <a href="single.html">Contact Lenses</a>
+                                            <a href="single.html">Multifocal Glasses</a>
+                                            <a href="single.html">Kids Glasses</a>
+                                            <a href="single.html">Lightweight Glasses</a>
+                                            <a href="single.html">Sports Glasses</a>
+                                        </div>
+
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="single.html">Desiner Glasses</a>
+                                            <a href="single.html">Ray-ban</a>
+                                            <a href="single.html">Prescription Glasses</a> 
+                                            <a href="single.html">Rx Sunglasses</a>
+                                            <a href="single.html">Contact Lenses</a>
+                                            <a href="single.html">Multifocal Glasses</a>
+                                            <a href="single.html">Kids Glasses</a>
+                                            <a href="single.html">Lightweight Glasses</a>
+                                            <a href="single.html">Sports Glasses</a>
+                                        </div>
+
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="single.html"><img src="img/g4.jpg"></a>
+                                        </div>
+                                    </div> 
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sreach-box">
+                        <span class="fa fa-user"></span>
+                        <button class="btn-src" onclick="alt()" id="mi">My Cart <span class="fa fa-cart-arrow-down"></span></button>
+                        <p id="alt" >Your shopping cart is empty <span class="fa fa-close" onclick="altt()"></span></p>
+                    </div>
+               </div>
+           </div>
+        </nav>
+    </header> 
+
+    <!-- banner section start here -->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active item1">
+            <img src="img/banner.jpg" >
+            <div class="carousel-caption">
+                <h1>Men’s eyewear</h1>
+                <p>Cool summer sale 50% off</p>
+                <button class="shp"><a href="single.html">Shop Now</a></button>
+            </div>
+          </div>
+      
+          <div class="item item2">
+            <img src="img/banner.jpg">
+            <div class="carousel-caption">
+                <h1>Women’s eyewear</h1>
+                <p>Want to Look Your Best?</p>
+                <button class="shp"><a href="single.html">Shop Now</a></button>
+            </div>
+          </div>
+      
+          <div class="item item3">
+            <img src="img/banner.jpg">
+            <div class="carousel-caption">
+                <h1>Men’s eyewear</h1>
+                <p>Cool summer sale 50% off</p>
+                <button class="shp"><a href="single.html">Shop Now</a></button>
+            </div>
+          </div>
+
+          <div class="item item4">
+            <img src="img/banner.jpg" >
+            <div class="carousel-caption">
+                <h1>Women’s eyewear</h1>
+                <p>Want to Look Your Best?</p>
+                <button class="shp"><a href="single.html">Shop Now</a></button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+            
+      <!-- Product section start -->
+
+      <section>
+          <div class="product">
+              <div class="max">
+                <h1>New Arrivals for you</h1>
+                  <div class="flex">
+                      <div class="product-box">
+                          <span class="top">new</span>
+                        <img src="img/s1.jpg" alt="">
+                            <div class="dark-box">
+                                <a href="single.html">Quick View</a>
+                            </div>
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Farenheit (Grey)</h3>
+                                <p class="red">$575.00</p>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                            <div class="cart-box">
+                                <span class="fa fa-cart-plus"></span>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="product-box">
+                        <span class="top">new</span>
+                        <img src="img/s2.jpg" alt="">
+                            <div class="dark-box">
+                                <a href="single.html">Quick View</a>
+                            </div>
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Opium (Grey)</h3>
+                                <p class="red">$325.00</p>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                            <div class="cart-box">
+                                <span class="fa fa-cart-plus"></span>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="product-box">
+                        <span class="top">new</span>
+                        <img src="img/s3.jpg" alt="">
+                            <div class="dark-box">
+                                <a href="single.html">Quick View</a>
+                            </div>
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Kenneth Cole</h3>
+                                <p class="red">$575.00</p>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                            <div class="cart-box">
+                                <span class="fa fa-cart-plus"></span>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="product-box">
+                        <span class="top">new</span>
+                        <img src="img/s4.jpg" alt="">
+                            <div class="dark-box">
+                                <a href="single.html">Quick View</a>
+                            </div>
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Farenheit Oval</h3>
+                                <p class="red">$325.00</p>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </div>
+                            <div class="cart-box">
+                                <span class="fa fa-cart-plus"></span>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section>
+        <div class="product">
+            <div class="max">
+                <div class="flex">
+                    <div class="product-box">
+                        <span class="top">new</span>
+                      <img src="img/s5.jpg" alt="">
+                          <div class="dark-box">
+                            <a href="single.html">Quick View</a>
+                          </div>
+                      <div class="flex">
+                          <div class="text">
+                              <h3>Aislin Wayfarer</h3>
+                              <p class="red">$757.00</p>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                          </div>
+                          <div class="cart-box">
+                              <span class="fa fa-cart-plus"></span>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="product-box">
+                      <span class="top">new</span>
+                      <img src="img/s6.jpg" alt="">
+                          <div class="dark-box">
+                            <a href="single.html">Quick View</a>
+                          </div>
+                      <div class="flex">
+                          <div class="text">
+                              <h3>Azmani Round</h3>
+                              <p class="red">$725.00</p>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                          </div>
+                          <div class="cart-box">
+                              <span class="fa fa-cart-plus"></span>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="product-box">
+                      <span class="top">new</span>
+                      <img src="img/s7.jpg" alt="">
+                          <div class="dark-box">
+                            <a href="single.html">Quick View</a>
+                          </div>
+                      <div class="flex">
+                          <div class="text">
+                              <h3>Farenheit Wayfarer</h3>
+                              <p class="red">$475.00</p>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                          </div>
+                          <div class="cart-box">
+                              <span class="fa fa-cart-plus"></span>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="product-box">
+                      <span class="top">new</span>
+                      <img src="img/s8.jpg" alt="">
+                          <div class="dark-box">
+                            <a href="single.html">Quick View</a>
+                          </div>
+                      <div class="flex">
+                          <div class="text">
+                              <h3>Fossil Wayfarer</h3>
+                              <p class="red">$825.00</p>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                              <span class="fa fa-star-o"></span>
+                          </div>
+                          <div class="cart-box">
+                              <span class="fa fa-cart-plus"></span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- summer sale -->
+
+    <section>
+        <div class="max">
+            <div class="summer">
+                <h1>Summer Flash sale</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider product -->
+
+    <div id="myCarousel2" class="carousel slider" data-slide="carousel">
+       <ol class="carousel-indicators">
+           <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel2" data-slide-to="1"></li>
+       </ol>
+
+       <div class="carousel-inner">
+           <div class="item active">
+               <div class="max">
+                   <div class="flex">
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s5.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s6.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s7.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s8.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+           <div class="item">
+                <div class="max">
+                    <div class="flex">
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s9.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s10.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s1.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="product-box">
+                                <span class="top">new</span>
+                                <img src="img/s2.jpg" alt="">
+                                    <div class="dark-box">
+                                        <a href="single.html">Quick View</a>
+                                    </div>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Fossil Wayfarer</h3>
+                                        <p class="red">$825.00</p>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <div class="cart-box">
+                                        <span class="fa fa-cart-plus"></span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+
+       <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    <!-- testi section -->
+
+    <section>
+        <div class="testi">
+            <div class="max">
+                <div class="testi-box">
+                    <h1>Tesimonials</h1>
+                    <span class="es">Esmeralda</span><span>Customer</span>
+                    <p>Maecenas interdum, metus vitae tincidunt porttitor, magna quam egestas sem, ac scelerisque nisl nibh vel lacus. Proin eget gravida odio. Donec ullamcorper est eu accumsan cursus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pick box start -->
+
+    <section>
+        <div class="pick">
+            <div class="max">
+                <div class="flex">
+                    <div class="pick-box">
+                        <img src="img/banner4.jpg" alt="">
+                        <div class="pick-dark">
+                            <h1>EDITOR'S <span class="red1">PICK</span></h1>
+
+                            <p>EXPRESS <br> YOUR STYLE <br> NOW.</p>
+                        </div>
+                    </div>
+
+                    <div class="pick-box">
+                        <img src="img/banner1.jpg" alt="">
+                        <div class="pick-dark">
+                            <h1>EDITOR'S <span class="red1">PICK</span></h1>
+
+                            <p>EXPRESS <br> YOUR STYLE <br> NOW.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- fast box start -->
+
+    <section>
+        <div class="max">
+            <div class="flex">
+                <div class="fast-box">
+                    <span class="fa fa-hand-paper-o"></span>
+                    <h2>Satisfaction Guaranteed</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat 
+                       <br> porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    <button class="shp">SHOP NOW</button>
+                </div>
+
+                <div class="fast-box">
+                    <span class="fa fa-rocket"></span>
+                    <h2>Satisfaction Guaranteed</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat 
+                       <br> porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    <button class="shp">SHOP NOW</button>
+                </div>
+
+                <div class="fast-box">
+                    <span class="fa fa-cog"></span>
+                    <h2>Satisfaction Guaranteed</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat 
+                       <br> porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    <button class="shp">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer start here -->
+
+    <footer>
+        <div class="max">
+            <div class="flex">
+                <div class="footer-box">
+                    <h3>About Us</h3>
+                    
+                    <p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+
+                    <span class="fa fa-facebook"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-google"></span>
+                    <span class="fa fa-linkedin"></span>
+                    <span class="fa fa-rss"></span>
+                    <span class="fa fa-vk"></span>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Get in touch</h3>
+                    
+                    <h4>Location :</h4>
+                    <p>0926k 4th block building, king Avenue, New York City.</p>
+                    <h4>Contact :</h4>
+                    <p>Phone : +121 098 8907 9987</p>
+                    <p>Email : info@example.com</p>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Error</a>
+                    <a href="single.html">Shop</a>
+                    <a href="contact.html">Contact us</a>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Sign up for your offers</h3>
+                    <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                </div>
+            </div>
+            <hr>
+
+            <p class="center">© 2018 Goggles. All Rights Reserved | Design by <span> Hamza Ali</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+

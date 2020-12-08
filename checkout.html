@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>GOGGLES</title>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="max">
+               <div class="flex">
+                   <div class="help-box">
+                       <h3>Need Help</h3>
+                       <span class="fa fa-phone"></span><span>(+12)123 456 7890</span>
+                   </div>
+
+                    <div class="logo">
+                        <h1 class="gog">GOGGLES</h1>
+                        <hr>
+                        <div class="navigation flex" id="navi">
+                            <div class="home">
+                                <a href="index.html">HOME</a>
+                            </div>
+                            <div class="about">
+                                <a href="about.html">ABOUT</a>
+                            </div>
+                            <div class="features">
+                                <a href="#">FEATURES<span class="fa fa-angle-down"></span></a>
+                                    <div class="features-box" id="features-box1">
+                                        <div class="flex">
+                                            
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="#">Desiner Glasses</a>
+                                                <a href="#">Ray-ban</a>
+                                                <a href="#">Prescription Glasses</a> 
+                                                <h1>View More Pages</h1>
+                                                <a href="#">About</a>
+                                                <a href="#">Customers</a>
+                                            </div>
+
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="#"><img src="img/g2.jpg"></a>
+                                            </div>
+
+                                            <div class="features-details">
+                                                <h1>Tittle Gose Here</h1>
+                                                <a href="#"><img src="img/g3.jpg"></a>
+                                            </div>
+                                        </div> 
+                                        <hr>
+                                    </div>
+                            </div>
+                            <div class="shop">
+                                <a href="#">SHOP <span class="fa fa-angle-down"></span></a>
+                                <div class="features-box" id="features-box2">
+                                    <div class="flex">
+                                        
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="#">Desiner Glasses</a>
+                                            <a href="#">Ray-ban</a>
+                                            <a href="#">Prescription Glasses</a> 
+                                            <a href="#">Rx Sunglasses</a>
+                                            <a href="#">Contact Lenses</a>
+                                            <a href="#">Multifocal Glasses</a>
+                                            <a href="#">Kids Glasses</a>
+                                            <a href="#">Lightweight Glasses</a>
+                                            <a href="#">Sports Glasses</a>
+                                        </div>
+
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="#">Desiner Glasses</a>
+                                            <a href="#">Ray-ban</a>
+                                            <a href="#">Prescription Glasses</a> 
+                                            <a href="#">Rx Sunglasses</a>
+                                            <a href="#">Contact Lenses</a>
+                                            <a href="#">Multifocal Glasses</a>
+                                            <a href="#">Kids Glasses</a>
+                                            <a href="#">Lightweight Glasses</a>
+                                            <a href="#">Sports Glasses</a>
+                                        </div>
+
+                                        <div class="features-details">
+                                            <h1>Tittle Gose Here</h1>
+                                            <a href="#"><img src="img/g4.jpg"></a>
+                                        </div>
+                                    </div> 
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <a href="#">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sreach-box">
+                        <span class="fa fa-user"></span>
+                        <button class="btn-src" onclick="alt()" id="mi">My Cart <span class="fa fa-cart-arrow-down"></span></button>
+                        <p id="alt" >Your shopping cart is empty <span class="fa fa-close" onclick="altt()"></span></p>
+                    </div>
+               </div>
+           </div>
+        </nav>
+    </header> 
+
+    <!-- about us section start -->
+
+    <section>
+        <div class="pagi">
+            <span class="red">Home   </span> <span>/   Checkout</span>
+        </div>
+    </section>
+
+    <!-- Checkout section start -->
+
+    <section>
+        <div class="check">
+            <h1>Checkout</h1>
+            <p class="pa">Your shopping cart contains: 3 Products</p>
+
+            <table>
+                <tr>
+                    <th>SL No.</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Remove</th>
+                </tr>
+
+                <tr id="c1" >
+                    <td>1</td>
+                    <td><img src="img/s1.jpg" alt=""></td>
+                    <td><input type="number" min="1" max="10" placeholder="1"></td>
+                    <td><p>Irayz Butterfly</p></td>
+                    <td><p>	$281.00</p></td>
+                    <td><span class="fa fa-close" onclick="c1()"></span></td>
+                </tr>
+
+                <tr id="c2">
+                    <td>2</td>
+                    <td><img src="img/s4.jpg" alt=""></td>
+                    <td><input type="number" min="1" max="10" placeholder="1"></td>
+                    <td><p>Fastrack Aviator</p></td>
+                    <td><p>	$281.00</p></td>
+                    <td><span class="fa fa-close"  onclick="c2()"></span></td>
+                </tr>
+
+                <tr id="c3">
+                    <td>3</td>
+                    <td><img src="img/s2.jpg" alt=""></td>
+                    <td><input type="number" min="1" max="10" placeholder="1"></td>
+                    <td><p>Opium (Grey)</p></td>
+                    <td><p>	$281.00</p></td>
+                    <td><span class="fa fa-close"  onclick="c3()"></span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="check">
+            <div class="flex">
+                <div class="check-box">
+                    <button class="shp2" disabled>CONTINUE TO BASKET</button>
+                    <ul>
+                        <li>Product1 -<span class="price">$281.00</span></li>
+                        <li>Product2 -<span class="price">$325.00</span></li>
+                        <li>Product3 -<span class="price">$325.00</span></li>
+                        <li>Total Service Charges -<span class="price">$55.00</span></li>
+                        <li class="totle">Total -<span class="price">$986.00</span></li>
+                    </ul>
+                </div>
+
+                <div class="check-box2" id="chec">
+                    <h4>Add a new Details</h4>
+                    <form action="payment.html" class="fn">
+                        <label for="name">Full Name:</label>
+                        <input type="text" placeholder="Full Name">
+
+                        <label for="name">Mobile number:</label>
+                        <input type="tel" placeholder="Mobile number">
+
+                        <label for="name">Landmark:</label>
+                        <input type="text" placeholder="Landmark">
+
+                        <label for="name">Town/City:</label>
+                        <input type="text" placeholder="Town/City">
+
+                        <select name="add">
+                            <option value="1">Office</option>
+                            <option value="1">Home</option>
+                            <option value="1">Commercial</option>
+                        </select>
+
+                        <button class="dil">DELIVERY TO THIS ADDRESS</button>
+
+                        <button class="mack" type="submit">Mack a Payment</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+
+    <!-- footer start here -->
+
+    <footer>
+        <div class="max">
+            <div class="flex">
+                <div class="footer-box">
+                    <h3>About Us</h3>
+                    
+                    <p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+
+                    <span class="fa fa-facebook"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-google"></span>
+                    <span class="fa fa-linkedin"></span>
+                    <span class="fa fa-rss"></span>
+                    <span class="fa fa-vk"></span>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Get in touch</h3>
+                    
+                    <h4>Location :</h4>
+                    <p>0926k 4th block building, king Avenue, New York City.</p>
+                    <h4>Contact :</h4>
+                    <p>Phone : +121 098 8907 9987</p>
+                    <p>Email : info@example.com</p>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Error</a>
+                    <a href="single.html">Shop</a>
+                    <a href="contact.html">Contact us</a>
+                </div>
+
+                <div class="footer-box">
+                    <h3>Sign up for your offers</h3>
+                    <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                </div>
+            </div>
+            <hr>
+
+            <p class="center">© 2018 Goggles. All Rights Reserved | Design by <span> Hamza Ali</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+

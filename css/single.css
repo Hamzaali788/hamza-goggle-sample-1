@@ -1,0 +1,101 @@
+.sing-box{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.img-left-box{
+    width: 40%;
+    
+}
+
+.img-left-box img{
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.img22 img{
+    width: 30%;
+    border: 1px solid #000;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.img-right-box{
+    width: 58%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.img-right-box h1{
+    color: #ff4e00;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.img-right-box p{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.img-right-box del{
+    font-weight: 200;
+    margin-right: 10px;
+}
+
+.img-right-box .fa-star{
+    color: #ccc;
+}
+
+.img-right-box label{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.img-right-box select{
+    width: 30%;
+    height: 40px;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+    outline: none;
+}
+
+.img-right-box input{
+    width: 5%;
+    height: 12px;
+    margin-bottom: 1rem;
+}
+
+.img-right-box .mack1{
+    margin-top: 5rem;
+}
+
+#img-box{
+    display: block;
+}
+
+#img-boxx{
+    display: none;
+}
+
+#img-boxxx{
+    display: none;
+}
+
+@media (max-width:768px){
+    .img-right-box{
+        width: 100%;
+    }
+
+    .img-left-box{
+        width: 100%;
+    }
+    
+}
