@@ -962,6 +962,9 @@ footer .flex{
         font-size: 2rem;
     }
 
+    .product-box{
+        width: 100%;
+    }
     
 
    
@@ -975,6 +978,10 @@ footer .flex{
     .features-box{
         top: 28.5%;
     }
+
+    .product-box{
+        width: 100%;
+    }
     
 }
 
@@ -985,6 +992,10 @@ footer .flex{
 
     .gog{
         font-size: 3rem;
+    }
+
+    .product-box{
+        width: 100%;
     }
 }
 
